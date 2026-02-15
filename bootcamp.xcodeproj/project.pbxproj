@@ -6,10 +6,6 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXBuildFile section */
-		A5B441672F3E05680011F11F /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5B441662F3E05680011F11F /* Button.swift */; };
-/* End PBXBuildFile section */
-
 /* Begin PBXContainerItemProxy section */
 		A57597D12F13AAFC00206040 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -31,7 +27,6 @@
 		A57597C12F13AAFC00206040 /* bootcamp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = bootcamp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A57597D02F13AAFC00206040 /* bootcampTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bootcampTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A57597DA2F13AAFC00206040 /* bootcampUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = bootcampUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A5B441662F3E05680011F11F /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -80,7 +75,6 @@
 		A57597B82F13AAFC00206040 = {
 			isa = PBXGroup;
 			children = (
-				A5B441662F3E05680011F11F /* Button.swift */,
 				A57597C32F13AAFC00206040 /* bootcamp */,
 				A57597D32F13AAFC00206040 /* bootcampTests */,
 				A57597DD2F13AAFC00206040 /* bootcampUITests */,
@@ -242,7 +236,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A5B441672F3E05680011F11F /* Button.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

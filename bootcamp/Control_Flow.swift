@@ -8,8 +8,35 @@
 import SwiftUI
 
 struct Control_Flow: View {
+    @State var darkModeEnabled = false
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack(alignment: .leading){
+            Text("Settings")
+                .font(.largeTitle)
+                .fontWeight(.semibold)
+            
+            VStack(alignment: .leading){
+                Text("Appearance")
+                    .font(.headline)
+                
+                Toggle(isOn: $darkModeEnabled) {
+                    HStack(spacing: 8) {
+                        Image(systemName: "moon.circle.fill")
+                            .font(.title2)
+                            .imageScale(.medium)
+                        Text("Enable Dark Mode")
+                            .font(.subheadline)
+                    }
+                    .padding(.horizontal)
+//                    .frame(height: 44)
+//                    .background(Color(.systemGroupedBackground))
+//                    .cornerRadius(10)
+                }
+            }
+            .padding()
+            Spacer()
+        }
+        .background(Color.blue)
     }
 }
 
